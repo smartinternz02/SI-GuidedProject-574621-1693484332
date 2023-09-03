@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>{% block title %}Home{% endblock %}</title>
+  </head>
+  <body
+    style="
+      background: linear-gradient(
+        90deg,
+        #040035,
+        #080f42,
+        #141750,
+        #1f1f5e,
+        #2a286c,
+        #35317b,
+        #413a8a,
+        #4c4499
+      );
+    "
+  >
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Online Education</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-item nav-link" id="home" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Analysis
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/Overweight">Study Habits</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/Underweight">Comparative</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/Severewasting">Overview</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/Stunting">Performance</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="/AboutUs">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      style="
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        margin: 40px;
+        border-radius: 20px;
+        color: white;
+      "
+    >
+      <div class="row">
+        <h3>Online Education</h3>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <img
+          src="../static/istockphoto-1059510610-612x612.jpg"
+          alt="..."
+          width="100%"
+          height="350px"
+        />
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <p>
+          Online education, also known as e-learning, has transformed the
+          educational landscape by harnessing the internet's power to deliver a
+          diverse array of courses and programs. This mode of learning caters to
+          a wide range of learners, from school students to working
+          professionals looking to upgrade their skills. One of its standout
+          features is flexibility; students can tailor their learning schedules
+          to accommodate other commitments, making education more accessible
+          than ever before.
+        </p>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <img
+          src="../static/60e933395aef48f2a3e77d7962aa7ec4.jpeg"
+          alt="..."
+          width="100%"
+          height="350px"
+        />
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <p>
+          Online platforms offer an extensive selection of subjects, from
+          traditional academic disciplines to niche courses not readily
+          available in traditional settings. These digital classrooms enable
+          learners to interact with instructors and peers through various
+          communication tools, fostering a collaborative learning environment.
+          Moreover, the ability to replay lectures, access a wealth of online
+          resources, and engage in multimedia content enhances comprehension and
+          retention.
+        </p>
+        <br />
+        <p>
+          Online education has democratized learning, transcending geographical
+          boundaries and socioeconomic barriers. It allows individuals to pursue
+          education regardless of their physical location, making higher
+          education more attainable and affordable. As technology advances,
+          online education continues to evolve, with innovations such as virtual
+          reality and artificial intelligence enhancing the learning experience.
+          This transformation promises to shape the future of education,
+          offering a dynamic and accessible path for lifelong learning and
+          personal growth.
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
